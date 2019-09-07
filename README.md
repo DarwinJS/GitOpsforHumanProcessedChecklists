@@ -133,3 +133,27 @@ QT Date Stamp Formatting: https://doc.qt.io/qt-5/qdatetime.html#toString
 Since Typora itself is what you would edit with, a visual preview is helpful if you are viewing this in another rendering engine:
 
 ![typorapreview.png](typorapreview.png)
+
+## Appendix: Architecture Heuristics: Requirements, Constraints, Desirements, Serendipities, Applicability, Limitations and Alternatives
+
+The following list demonstrates the Architectural thrust of the solution.  It can help you discover problems you don't know you'll have yet and whether your needs and goals for operational checklists (or something similar) have reasonable alignment with the ones used to decide on the elements of this solution.
+
+- **Requirement: (Satisfied)** Multiplatform for DevOps teams who use a mix of Mac and Windows.
+- **Requirement: (Satisfied)** Leverages free software.
+- **Requirement: (Satisfied)** Markdown checkboxes do not work in combination with Markdown numbered bullets - so the entire solution must support another method of done marking.
+- **Requirement: (Satisfied)** Current date and time inserts for "Done" stamping using a hotkey.
+- **Requirement: (Satisfied)** Markdown formatting of hotkey based text inserts.
+- **Requirement: (Satisfied)** Not web based (or at least not JIRA based) because it is easy to loose track of the window and there is the risk of losing progress if I don't save and re-edit regularly (something that increases cognitive load during the already mentally intensive execution of an operational checklist).
+- **Requirement: (Satisfied)** Code editor and source control manager agnostic - does not require team members to standardize their editor or various teams to be on the same source control.
+- **Requirement: (Satisfied)** standard, plain vanilla flavored markdown should be the primary mark up.
+- **Desirement: (Satisfied)** Proper handling of pasting graphics and locating them next to source files.  Graphics dramatically enhance instructions and allow screen capture based recording of results.
+- **Desirement: (Satisfied)** Uses visual editing - not the dual pane editing and rendering approach used by most markdown tools.
+- **Desirement: (Satisfied)** Table support for long lists of parameters.
+- **Desirement: (Satisfied)** CSS rendering for visually distinguished tags.
+- **Serendipity: (Discovered)** Outline navigation pane for easier navigation of complex checklists.
+- **Serendipity: (Discovered)** Replace selected text with paste, Undo control key.
+- **Serendipity: (Discovered)** Decent spell check.
+- **Serendipity: (Discovered)** Autosave functionality (loosing checklist progress is jarring during change events).
+- **Serendipity: (Discovered)** support for standard formatting through well-known hotkeys, menu items and right-click menus (like a word processor rather than a code editor).
+- **Serendipity: (Discovered)** export of command configuration from hotkey utility for easy sharing of extended stamps and text formatting.
+- **Serendipity: (Discovered)** all tools are already in the standard package repositories for Windows (Chocolatey) and Mac (Brew).
