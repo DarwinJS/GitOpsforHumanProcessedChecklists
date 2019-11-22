@@ -88,3 +88,5 @@ Closes #_ISSUE_NUMBER_
    Post mortem issue: #_ISSUE_NUMBER_
 
 ### Phase 6: Closing Out This Issue
+* [ ] If the change succeeded, close this checklist after success is verified.
+* [ ] If the change failed, close this checklist after post-mortem is complete.
