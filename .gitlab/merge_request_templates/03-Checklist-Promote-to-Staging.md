@@ -9,22 +9,19 @@ Changeset Version: `_REPLACE_WITH_ X.Y`
 Stack ID for prechange Blue Stack: `_REPLACE_WITH_ STACKID`
 Stack ID for prechange Green Stack: `_REPLACE_WITH_ STACKID`
 Changeset Deployment Attempt Result (NO GO, SUCCEEDED, FAILED): `_REPLACE_WITH_ NO GO or SUCCEEDED or FAILED`
-
-### Notify and Subscribe
-Could the following individuals please acknowledge they are aware of this merge request:
-
+ 
 #### Auditors / Listeners
 Please check off your name to acknowledge you know of this issue and have subscribed to it:
-* [ ] `_REPLACE_WITH_ @PersonalName1`
-* [ ] `_REPLACE_WITH_ @PersonalName2`
+* [ ] `_REPLACE_WITH_ @PersonalHandle1`
+* [ ] `_REPLACE_WITH_ @PersonalHandle2`
 
 #### Changeset Team Acknowledgements
 Please check off your name to acknowledge you know of this issue and have subscribed to it:
-* [ ] `_REPLACE_WITH_ @PersonalName4`
-* [ ] `_REPLACE_WITH_ @PersonalName4`
-* [ ] ``_REPLACE_WITH_ @PersonalName4`
+* [ ] `_REPLACE_WITH_ @PersonalHandle4`
+* [ ] `_REPLACE_WITH_ @PersonalHandle4`
+* [ ] `_REPLACE_WITH_ @PersonalHandle4`
 
-/cc ``_REPLACE_WITH_ @StagingChangesetGroup`
+/cc `_REPLACE_WITH_ @StagingChangesetGroup`
 
 
 ### Pre-Flight (5 Days Before)
@@ -84,7 +81,7 @@ Closes `_REPLACE_WITH_ #ISSUE_NUMBER`
    1. * [ ] After updating with version and either "failure" or "no-go", post message "Changeset `_REPLACE_WITH_ X.Y` _failed_or_was a no-go_ to deploy to the Staging environment for the Andromeda system." to
       1. * [ ] Email List "Andromeda PreProduction Watch"
       2. * [ ] Slack channel "Andromeda PreProduction Watch"
-   2. * [ ] Creating and complete evidence section an issue with template "Changeset Failure Post Mortem Report for Changeset `_REPLACE_WITH_ X.Y`" and record issue number in the following (to map the test checklist to this merge request):
+   2. * [ ] Creating and complete evidence section an issue with template "Post Mortem Report for Changeset `_REPLACE_WITH_ X.Y`" and record issue number in the following (to map the test checklist to this merge request):
    Post mortem issue: `_REPLACE_WITH_ #ISSUE_NUMBER`
 
 ### Phase 6: Closing Out This Issue
