@@ -1,4 +1,4 @@
-## Sample Checklist Using Stamps for "Done" Marking
+## Sample Partially Complete Checklist Using Stamps for "Done" Marking
 
 Requires Typora and CopyQ.
 
@@ -25,10 +25,11 @@ Section start: <span style="background-color:lightgreen;border: 1px">**[STARTED 
 
 5. <span style="background-color:lightblue;border: 1px">**[TODO]**</span> Setup the production rollout with these settings:
 
-   | Setting Name | Setting Value |
-   | ------------ | ------------- |
-   | Production   | True          |
-   | RolloutRate  | 40            |
+   | Setting Name             | Setting Value        |
+   | ------------------------ | -------------------- |
+   | Production               | True                 |
+   | RolloutRate              | 40                   |
+   | Target Changeset Version | `_REPLACE_WITH_ X.Y` |
 
 ### Begin Deployment
 
@@ -37,4 +38,4 @@ Section start: <span style="background-color:lightgreen;border: 1px">**[STARTED 
 
 2. <span style="background-color:lightblue;border: 1px">[**TODO]**</span> Wait for completion and record completion time.
 
-   <span style="color:red">**COMPETION DURATION:**</span> <span style="background-color:red;border: 1px">**[RECORD RESULT HERE]**</span> 
+   <span style="color:red">**COMPETION DURATION:**</span> `_REPLACE_WITH_ Completion Duration`
