@@ -12,6 +12,8 @@ In the case that a checklist involves merging merge requests it may be better to
 
 ## Article References
 
-Part 1: Human-Processed Source Code Belongs in Git
+[Part 1: Human-Processed Source Code Belongs in Git](https://thenewstack.io/why-human-processed-source-code-belongs-in-git/)
 
 Part 2: GitOps for Human-Processed Code: Markdown Checklists
+
+[More details about this repository](./DesktopTools.md)
