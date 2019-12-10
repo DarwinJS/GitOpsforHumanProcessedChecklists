@@ -109,7 +109,7 @@ QT Date Stamp Formatting: https://doc.qt.io/qt-5/qdatetime.html#toString
 
 Since Typora itself is what you would edit with, a visual preview is helpful if you are viewing this in another rendering engine:
 
-![typorapreview.png](typorapreview.png)
+![typorapreview.png](./typorapreview.png)
 
 ## Appendix: Architecture Heuristics: Requirements, Constraints, Desirements, Serendipities, Applicability, Limitations and Alternatives
 
